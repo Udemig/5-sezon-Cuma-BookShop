@@ -1,0 +1,82 @@
+@import "variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: white;
+  padding: 20px 30px;
+  border-bottom: 2px solid purple;
+
+  &-logo {
+    font-size: 32px;
+    height: 50px;
+    a {
+      text-decoration: none;
+      color: black;
+      b {
+        color: purple;
+      }
+    }
+  }
+  &-menu {
+    // width: 100%;
+    flex: 1; //width:100% ile ayni görevi görür
+    ul {
+      display: flex;
+      gap: 15px;
+      li {
+        list-style-type: none;
+        &:hover {
+          color: purple;
+          font-weight: 500;
+          transform: scale(1.1);
+          transition: ease .7s;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+  &-process {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    img {
+      width: 25px;
+    }
+
+    button{
+        padding-top: 5px;
+        background: transparent;
+        border: none;
+        position: relative;
+        &:hover{
+            cursor: pointer;
+            background-color: #ccc;
+            border-radius: 20px;
+            transition: ease .7s;
+            transform: scale(1.1);
+        }
+
+        span{
+            position: absolute;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            width: 15px;
+            top: -4px;
+            right: -7px;
+        }
+    }
+  }
+}

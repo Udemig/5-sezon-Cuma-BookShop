@@ -1,0 +1,27 @@
+@import 'variables';
+@import 'header';
+@import 'booklist';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-normal;
+}
+
+body{
+    background: linear-gradient(120deg, #c4c1e0 10%, #746cba 81%);
+    height: 100vh;
+}
+
+.loading {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        margin-top: 20%;
+        width: 50px;
+    }
+}
