@@ -78,7 +78,6 @@
 
 /* alt + shift + f */
 .list {
-  border: 5px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +114,6 @@
   background-color: white;
   padding: 7px;
   border-radius: 20px 0 0 20px;
-  border-right: 3px solid black;
 }
 .list-process-right .input button {
   border: none;
@@ -137,7 +135,6 @@
   padding: 7px;
 }
 .list table {
-  border: 10px solid blue;
   width: 80%;
   border-radius: 1em;
   border-collapse: collapse;
@@ -168,6 +165,62 @@
   transition: ease 0.7s;
   background-color: #ccc;
   border-radius: 20px;
+}
+
+.addbook {
+  width: 100%;
+  height: calc(100vh - 92px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addbook h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.addbook-form {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 50px 20px;
+  border-radius: 15px;
+}
+.addbook-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 48%;
+}
+.addbook-form div span {
+  font-weight: 300;
+  color: #362f4b;
+}
+.addbook-form div input, .addbook-form div textarea {
+  padding: 7px;
+}
+.addbook-form div:last-of-type {
+  width: 98%;
+}
+.addbook-form button {
+  margin: auto;
+  margin-top: 30px;
+  padding: 5px 15px;
+  background-color: rgb(211, 37, 37);
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addbook-form button:hover {
+  color: gray;
+  transition: ease 0.3s;
 }
 
 * {

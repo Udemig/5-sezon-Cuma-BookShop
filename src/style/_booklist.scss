@@ -3,7 +3,6 @@
 /* alt + shift + f */
 
 .list {
-  border: 5px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +38,6 @@
         background-color: white;
         padding: 7px;
         border-radius: 20px 0 0 20px;
-        border-right: 3px solid black;
         button {
           border: none;
           background: transparent;
@@ -65,7 +63,6 @@
 
   /* TABLO */
   table{
-    border: 10px solid blue;
     width: 80%;
     border-radius: 1em;
     border-collapse:  collapse;//tüm değerler arasındaki boşluları 0 a indirir. tablolar arası için

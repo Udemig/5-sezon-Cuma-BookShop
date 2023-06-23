@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 import api from "../api/api";
 import Loading from "../components/Loading";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const BookList = () => {
   const [bookList, setBookList] = useState([]);
   // const myApi = api(); //useApi() kullanabilirdik ama biz kendi api fonksiyonumuzu Oluşturduk
@@ -14,8 +17,6 @@ const BookList = () => {
     myApi
       .get("product")
       .then((res) => {
-        console.log("res", res.data);
-
         setTimeout(() => {
           setBookList(res.data);
         }, 700);
@@ -25,9 +26,33 @@ const BookList = () => {
 
   console.log("BookList =>", bookList);
 
+  //Ürün silme işlemi apiden
+  const handleDelete = (itemId) => {
+    console.log("handleDelete çalıştı", itemId);
+
+    myApi
+      .delete(`/product/${itemId}`)
+      .then((res) => {
+        //Başarıyla silme işlemi gereçkeleştiğinde yapılacak işlemler
+
+        
+
+        const silindiktenSonra = bookList.filter(item=>item.id !== itemId ) 
+        console.log('silindiktenSonra',silindiktenSonra)
+        setBookList(silindiktenSonra)
+        toast.success(`${itemId} no lu idye ait ürün silindi!`);
+
+      })
+      .catch((err) => {
+        //Silme işlemi sırasında hata durumunda yapılacak işlemler
+        console.log(err);
+      });
+  };
+
   if (bookList.length === 0) {
     return <Loading />;
   }
+
 
   return (
     <>
@@ -100,35 +125,37 @@ const BookList = () => {
                 count,
               } = item;
               return (
-                <tr>
+                <tr key={index}>
                   <th></th>
-                  <th>${isbn}</th>
-                  <th>${author}</th>
-                  <th>${bookName}</th>
-                  <th>${publisher} </th>
-                  <th>${genre}</th>
-                  <th>${count}</th>
-                  <th>${price}</th>
-                  <th>${pageCount}</th>
+                  <th>{isbn}</th>
+                  <th>{author}</th>
+                  <th>{bookName}</th>
+                  <th>{publisher} </th>
+                  <th>{genre}</th>
+                  <th>{count}</th>
+                  <th>{price}</th>
+                  <th>{pageCount}</th>
                   <th>
-                    <Link to={`https://www.npmjs.com/package/react-router-dom`}>
+                    <Link to={`/editbook/${item.id}`}>
+                      {" "}
+                      {/* ${item.id} <=> :urunId, useParams ile bu dinamik değere ulaşılır */}
                       <img
                         src="https://img.icons8.com/?size=512&id=12082&format=png"
                         alt=""
                       />
                     </Link>
-                    <Link>
-                      <img
-                        src="https://img.icons8.com/?size=1x&id=102550&format=png"
-                        alt=""
-                      />
-                    </Link>
+                    <img
+                      onClick={() => handleDelete(item.id)}
+                      src="https://img.icons8.com/?size=1x&id=102550&format=png"
+                      alt=""
+                    />
                   </th>
                 </tr>
               );
             })}
           </tbody>
         </table>
+        <ToastContainer autoClose={1000} />
       </div>
     </>
   );

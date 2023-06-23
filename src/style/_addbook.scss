@@ -1,0 +1,60 @@
+.addbook{
+    width: 100%;
+    height: calc(100vh - 92px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        text-align: center;
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+
+    &-form{// .addbook &-form => addbook-form
+        background-color: white;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+        padding: 50px 20px;
+        border-radius: 15px;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 48%;
+            span{
+                font-weight: 300;
+                color: #362f4b;
+            }
+            input, textarea{
+                padding: 7px;
+            }
+            &:last-of-type{//son div etiketine ulaşılır
+                width: 98%;
+            }
+
+        }
+        button{
+            margin: auto;
+            margin-top: 30px;
+            padding: 5px 15px;
+            background-color: rgb(211, 37, 37);
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                color: gray;
+                transition: ease .3s;
+            }
+        }
+    }
+}

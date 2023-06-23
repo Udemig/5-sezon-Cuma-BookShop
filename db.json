@@ -9,7 +9,7 @@
       "description": "“Ne güzel bir şeker portakalı fidanıymış bu! Hem bak, dikeni de yok. Pek de kişilik sahibiymiş, şeker portakalı olduğu ta uzaktan belli. Ben senin boyunda olsaydım başka şey istemezdim.”\n“Ama ben büyük bir ağaç istiyordum.”\n“İyi düşün, Zezé. Henüz gencecik bir fidan bu. Bir gün koca bir ağaca dönüşecek. Seninle beraber büyüyecek. İki kardeş gibi iyi anlaşacaksınız. Dalını gördün mü? Bir tanecik dalı olsa da sanki özellikle senin binmen için hazırlanmış bir ata benziyor.”\n ",
       "isbn": "9789750738609",
       "image": "https://img.kitapyurdu.com/v1/getImage/fn:11462950/wh:true/wi:220",
-      "price": "28",
+      "price": "55",
       "count": "856",
       "pageCount": "182"
     },
@@ -269,70 +269,32 @@
       "price": "17.50",
       "count": "789",
       "pageCount": "208"
-    },
-    {
-      "id": 1670259774123,
-      "bookName": "Tutunamayanlar",
-      "author": "Oğuz Atay",
-      "publisher": "İletişim Yayınları",
-      "genre": "Roman",
-      "description": "Bir grup üniversite mezunu gencin sıradanlaşan hayatlarını, hayal kırıklıklarını ve varoluşsal sorgulamalarını anlatan modern Türk edebiyatının önemli eserlerinden biridir.",
-      "isbn": "9789754702701",
-      "image": "https://cdn.bkmkitap.com/v1/getImage/fn:10972573/wh:true/wi:220",
-      "price": "25.00",
-      "count": "345",
-      "pageCount": "736"
-    },
-    {
-      "id": 1670259861376,
-      "bookName": "İstanbul Hatırası",
-      "author": "Ahmet Ümit",
-      "publisher": "Everest Yayınları",
-      "genre": "Roman",
-      "description": "Bir dedektifin, cinayetler ve tarihi olaylar arasında gidip gelen bir araştırma sürecinde İstanbul'un derinliklerine doğru yolculuğunu anlatan gerilim dolu bir roman.",
-      "isbn": "9786051851507",
-      "image": "https://cdn.bkmkitap.com/v1/getImage/fn:11662517/wh:true/wi:220",
-      "price": "32.90",
-      "count": "579",
-      "pageCount": "528"
-    },
-    {
-      "id": 1686936376432,
-      "bookName": "Fahrenheit",
-      "author": "Ray Bradbury",
-      "publisher": "Ithaki Yayınları",
-      "genre": "Edebiyat",
-      "description": "Ray Douglas Bradbury 22 Ağustos 1920 yılında A.B.D Illinois’de dünyaya gelmiştir. Ünlü yazar İsveç göçmeni bir anne ve telefon telleri çeken bir babanın oğlu olarak dünyaya geldi. Çocukluğunu Waukegan’da bulunan Carnege kütüphanesinde geçirdi.\nKütüphaneleri o kadar çok seviyordu ki gününün çoğunu orada geçiriyordu. Böylelikle ileride yazacağı kitapların temellerini de burada atmış oldu.\n\nAilesi ile ülkeyi gezdiği iki yıl boyunca her mola yerinde Ray’ın yaptığı ilk şey oranın kütüphanesini bulmaktı. Ailesinin Los Angeles’a taşınmasından sonra burada bir liseye kayıt oldu ve okulunu başarı ile bitirdi. Okul yıllarında da çok çalışkan bir öğrenciydi. Başarılı bir öğrenci olmasına rağmen üniversiteye kayıt yaptırmadı ve gazete satmaya başladı.\n\nRay Bradbury 12 yaşında kısa hikayeler yazmaya başlar. Bu hikâyelerinden biri dergide yayınlandığında yaşı 20’li civarlardadır.\n\nLise bittikten sonra sokak köşelerinde kitap satan Ray Bradbury kütüphanelerde verilen küçük not kâğıtlarına yazmaya başlar.\n\nKendisinin ifadesi ile 28 yaşına geldiğinde kütüphaneden çıkar ve 30 yaşına geldiğinde kitabını yazması ve bastırması için yeterli parası yoktur.\n\nKaliforniya Üniversitesi’nde gezerken bir yerlerden daktilo sesini duyar. Kiralık daktilo odası olduğunu öğrenince sevinçten delirmiş halde yazmaya başlar.\n\nRay kitabını yazarken kısa öyküleri de zaman zaman dergilerde yayınlanıyordu. Fahɾenheit 451 bittiğinde yayınlatacak dergi bulamaz. Genç bir editör kitabı satın alır. Bu şekilde Ray Bradbury Fahɾenheit 451 kitabını yayınlatarak dünyanın en iyi distopik eserlerinden birini okuyucusuyla buluşturdu ve tüm dünyanın kendisini tanımasını sağladı.\n\nRay Bradbury 400’den fazla kısa öykü yazmış, 50’den fazla ontoloji kitabında öyküleri yayınlanmıştır. Aynı zamanda 20 kadar tiyatro oyunu, çocuk hikayeleri, tv senaryoları ile çağımızın en üretken yazarlarından biri olmuştur.\n\nHayranları tarafından bilim kurgu yazarı olarak anılsa da kendisi bu durumu kesin bir dille reddetmiş ve şu sözlerle açıklamıştır. Ben bilim kurgu yazmıyorum, yazdığım tek bilim kurgu Fahɾenheit 451’dir. Çünkü gerçeğe dayanılarak yazılmıştır. Bilim kurgu gerçeğin tasviridir, fantezi değil. Fahɾenheit 451 dışında bilimkurgu alanında verdiğim başka eserim yoktur.’\n\nRay Bradbury eşi ile de bir",
-      "isbn": "9786053757818",
-      "image": "https://cdn.bkmkitap.com/fahrenheit-289854-11648565-28-O.jpg",
-      "price": "66,00",
-      "pageCount": "208"
     }
   ],
-  "admin":{
-    "user":"admin@system.com",
-    "password":"123123"
+  "admin": {
+    "user": "admin@system.com",
+    "password": "123123"
   },
-  "user":[
+  "user": [
     {
-      "id":1,
-      "user":"admin@system.com",
-      "password":"123123"
+      "id": 1,
+      "user": "admin@system.com",
+      "password": "123123"
     },
     {
-      "id":2,
-      "user":"admin@system.com",
-      "password":"123123"
+      "id": 2,
+      "user": "admin@system.com",
+      "password": "123123"
     },
     {
-      "id":3,
-      "user":"admin@system.com",
-      "password":"123123"
+      "id": 3,
+      "user": "admin@system.com",
+      "password": "123123"
     },
     {
-      "id":4,
-      "user":"admin@system.com",
-      "password":"123123"
+      "id": 4,
+      "user": "admin@system.com",
+      "password": "123123"
     }
   ]
 }
