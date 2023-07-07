@@ -223,6 +223,95 @@
   transition: ease 0.3s;
 }
 
+.banner {
+  position: relative;
+  background-color: aqua;
+}
+.banner img {
+  min-width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  height: 300px;
+}
+.banner h3 {
+  position: absolute;
+  top: 45%;
+  color: black;
+  left: 30px;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 18px;
+  padding: 15px;
+}
+.banner .incele {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 18px;
+  padding: 15px;
+  color: black;
+  font-weight: "400";
+}
+
+.card {
+  width: 200px;
+  background-color: aliceblue;
+  min-width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.card-details-title h5 {
+  font-weight: 300;
+}
+.card-details-title p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-details button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-details button i {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: flex-start;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.mytitle {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
 * {
   padding: 0;
   margin: 0;

@@ -1,0 +1,10 @@
+.products{
+    display: flex;
+    
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: flex-start;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
