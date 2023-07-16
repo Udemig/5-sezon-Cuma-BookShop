@@ -312,6 +312,117 @@
   padding-bottom: 25px;
 }
 
+.cart {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 15px;
+  padding: 15px 0;
+  padding-left: 50px;
+  padding-right: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.cart-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.cart-left-details h2 {
+  font-size: 15px;
+}
+.cart img {
+  width: 70px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 5px;
+}
+.cart-right {
+  display: flex;
+  align-items: center;
+}
+.cart-right-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.cart-right-buttons-up {
+  width: 20px;
+  height: 30px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cart-right-buttons-down {
+  width: 20px;
+  height: 30px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cart-right-details {
+  display: flex;
+  justify-content: center;
+}
+.cart-right-details button {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: gray;
+}
+.cart-right-details p {
+  margin-right: 22px;
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: 15;
+  left: 0;
+  padding: 100px;
+}
+.modal-close {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: -20px;
+}
+.modal .modals {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 15px;
+  border: 1px solid black;
+}
+.modal .modals-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+
 * {
   padding: 0;
   margin: 0;

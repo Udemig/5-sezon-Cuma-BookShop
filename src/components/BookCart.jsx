@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
-function BookCart({ bookInfo }) {
+function BookCart({ bookInfo,onClick }) {
   return (
     <div className="card">
       <img src={bookInfo.image} alt="" />
@@ -13,7 +13,7 @@ function BookCart({ bookInfo }) {
           <p>$ {bookInfo.price}</p>
         </div>
 
-        <button>
+        <button onClick={onClick}>
           <i>
             <FontAwesomeIcon icon={faCartShopping} />
           </i>
